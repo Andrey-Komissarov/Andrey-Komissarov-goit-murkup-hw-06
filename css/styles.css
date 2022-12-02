@@ -257,7 +257,10 @@
        }
 
     .close{
-        display: block;
+        
+        display: flex; 
+        align-items:center;
+        justify-content:center;
         padding: 0;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
@@ -270,11 +273,8 @@
         cursor: pointer;
     }
 
-        .close > .icon{
-            
-            display: flex; 
-            align-items:center;
-            justify-content:center;
+    .close > .icon{
+        display: block; 
         }
 
         /*Form*/
