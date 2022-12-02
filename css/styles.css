@@ -293,7 +293,7 @@
         text-align: center;
     }
 
-    .form-span{
+    .form-label{
     position: absolute;
     top: -18px;
     left: 0px;
@@ -311,6 +311,16 @@
         border-radius: 4px;
         border: 1px solid rgba(33, 33, 33, 0.2);
     }
+
+    .form-input:focus ~ .icon {
+    fill: var(--accent-color);
+    }
+
+    .form-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+      }
+
     
     .form-field .icon{
         position: absolute;
@@ -329,6 +339,8 @@
         margin-bottom: 20px;
     }
 
+    
+
     .modal-box{
         align-items: center;
     }
@@ -336,13 +348,15 @@
     .contract{
         margin-bottom: 30px;
     }
+
+    .contract-link {
+        color: var(--accent-color);
+      }
+
     .contract-field{
         position: relative;
     }
     
-    .contarct-link{
-        color: var(--accent-color);
-    }
     .checkbox-icon {
         position: absolute;
         left: 0;
@@ -355,6 +369,14 @@
         background-color: transparent;
         border: 2px solid var(--titel-link-color);
         border-radius: 4px;
+      }
+
+      .checkbox:checked + .checkbox-icon {
+        background-color: var(--accent-color);
+        background-image: url(../images/icon-forms.svg#icon-icon-check);
+        border: transparent;
+        background-size: contain;
+        background-origin: border-box;
       }
 
     
