@@ -271,7 +271,10 @@
     }
 
         .close > .icon{
-            display: block;
+            
+            display: flex; 
+            align-items:center;
+            justify-content:center;
         }
 
         /*Form*/
@@ -339,11 +342,11 @@
         margin-bottom: 20px;
     }
 
-    
-
+ 
     .modal-box{
-        align-items: center;
-    }
+    align-items: center;
+    padding: 40px 40px;
+}
 
     .contract{
         margin-bottom: 30px;
@@ -353,9 +356,6 @@
         color: var(--accent-color);
       }
 
-    .contract-field{
-        position: relative;
-    }
     
     .checkbox-icon {
         position: absolute;
@@ -423,6 +423,8 @@
     }
     
     .button {
+    display: block;
+    margin: 0 auto;
     width: 200px;
     height: 50px;
     border: none;
