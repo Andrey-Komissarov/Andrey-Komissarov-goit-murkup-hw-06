@@ -273,6 +273,11 @@
         cursor: pointer;
     }
 
+    .close:focus,
+    .close:hover {
+    fill: var(--accent-color);
+}
+
     .close > .icon{
         display: block; 
         }
