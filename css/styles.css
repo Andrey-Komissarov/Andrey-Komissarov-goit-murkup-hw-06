@@ -257,7 +257,8 @@
        }
 
     .close{
-        
+        width:30px;
+        height:30px;
         display: flex; 
         align-items:center;
         justify-content:center;
@@ -271,6 +272,7 @@
         
         background-color: transparent;
         cursor: pointer;
+        transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .close:focus,
@@ -363,7 +365,6 @@
 
     
     .checkbox-icon {
-        position: absolute;
         left: 0;
         top: 50%;
         transform: translate(-24px, -50%);
@@ -378,7 +379,7 @@
 
       .checkbox:checked + .checkbox-icon {
         background-color: var(--accent-color);
-        background-image: url(../images/icon-forms.svg#icon-icon-check);
+        background-image: url(../images/iconchek.svg);
         border: transparent;
         background-size: contain;
         background-origin: border-box;
@@ -949,17 +950,17 @@
 
     }
 
-    .box-links .link{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 44px;
-        height: 44px;
-        border-radius: 50%;
-        background-color: var(--footet-link-bg);
-        fill: var(--address-color);
+.box-links .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--footet-link-bg);
+    fill: var(--address-color);
 
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
   .box-links .link:hover,
