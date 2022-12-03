@@ -253,11 +253,20 @@
         
         background-color: var(--logo-down-color);
         border-radius: 4px;
+        
        }
 
+    .modal-content{
+    padding: 0 40px 40px 40px;
+
+    }
+
     .close{
+        position: relative;
         width:30px;
         height:30px;
+        margin-top: 8px;
+        margin-right: 8px;
         display: flex; 
         align-items:center;
         justify-content:center;
@@ -265,8 +274,7 @@
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         
-        margin-top: 8px;
-        margin-right: 8px;
+        
         margin-left: auto;
         
         background-color: transparent;
@@ -285,11 +293,9 @@
 
         /*Form*/
         .form-field{
-            position: relative;
-            display: block;
-            margin-left: 40px;
-            margin-right: 40px;
-            margin-bottom:28px;
+      position: relative;
+      display: block;
+      margin-bottom:28px;
     }
 
     .modal-text{
@@ -348,11 +354,14 @@
         margin-bottom: 20px;
     }
 
- 
     .modal-box{
-    align-items: center;
-    padding: 40px 40px;
-    
+    align-items: center;   
+    }
+
+    .contract-field{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
     }
 
     .contract{
@@ -366,11 +375,11 @@
     
     .checkbox-icon {
         display: block;
-        transform: translate(-24px, 130%);
-      
+        margin-right: 7px;
+             
         width: 16px;
         height: 15px;
-      
+              
         background-color: transparent;
         border: 2px solid var(--titel-link-color);
         border-radius: 4px;
