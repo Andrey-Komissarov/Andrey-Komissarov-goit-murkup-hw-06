@@ -247,7 +247,6 @@
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
         
-
         min-height: 581px;
         min-width: 528px;     
         
@@ -332,12 +331,12 @@
       }
 
     
-    .form-field .icon{
-        position: absolute;
-        left: 15px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+    .form-field .icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+     }
 
     .coment-input{
         resize: none;
@@ -353,7 +352,8 @@
     .modal-box{
     align-items: center;
     padding: 40px 40px;
-}
+    
+    }
 
     .contract{
         margin-bottom: 30px;
@@ -365,9 +365,8 @@
 
     
     .checkbox-icon {
-        left: 0;
-        top: 50%;
-        transform: translate(-24px, -50%);
+        display: block;
+        transform: translate(-24px, 130%);
       
         width: 16px;
         height: 15px;
@@ -379,12 +378,13 @@
 
       .checkbox:checked + .checkbox-icon {
         background-color: var(--accent-color);
-        background-image: url(../images/iconchek.svg);
+        background-image: url(../images/check-m.svg);
         border: transparent;
         background-size: contain;
         background-origin: border-box;
+        background-repeat:no-repeat;
+        background-position: 50% 50%;
       }
-
     
     /*Hero*/
     
